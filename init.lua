@@ -46,6 +46,9 @@ if core.global_exists("armor") then
 			"amber",
 			{"ancient", 14},
 		},
+		["rainbow_ore"] = {
+			{"rainbow", 12},
+		},
 	}
 
 	for modname, materials in pairs(helmets) do
@@ -59,6 +62,8 @@ if core.global_exists("armor") then
 			local orig_name
 			if modname == "amber" and material == "amber" then
 				orig_name = modname .. ":helmet"
+			elseif modname == "rainbow_ore" then
+				orig_name = modname .. ":rainbow_ore_helmet"
 			else
 				orig_name = modname .. ":helmet_" .. material
 			end
@@ -70,12 +75,22 @@ if core.global_exists("armor") then
 				def.description = def.description .. " with light"
 				def.inventory_image = "lighted_helmets_inv_underlay.png^" .. orig_def.inventory_image
 				if not def.texture then
-					def.texture = modname .. "_helmet_" .. material .. ".png"
+					if modname == "rainbow_ore" then
+						def.texture = "rainbow_ore_rainbow_ore_helmet.png"
+					else
+						def.texture = modname .. "_helmet_" .. material .. ".png"
+					end
 				end
 				if not def.wield_image then
 					def.wield_image = orig_def.inventory_image
 				end
-				def.preview = modname .. "_helmet_" .. material .. "_preview.png"
+				if not def.preview then
+					if modname == "rainbow_ore" then
+						def.preview = "rainbow_ore_rainbow_ore_helmet_preview.png"
+					else
+						def.preview = modname .. "_helmet_" .. material .. "_preview.png"
+					end
+				end
 
 				local helmet_name = "lighted_helmets:"
 				if modname == "amber" and material == "ancient" then

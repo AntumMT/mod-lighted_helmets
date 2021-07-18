@@ -1,4 +1,2 @@
 
 TODO:
-- add helmets from mods:
-	- rainbow_ore

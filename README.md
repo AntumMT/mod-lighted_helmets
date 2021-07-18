@@ -9,6 +9,7 @@ Supports helmets from the following mods:
 - technic_armor
 - xtraarmor
 - amber
+- rainbow_ore
 
 ### Licensing:
 
@@ -46,6 +47,7 @@ Optional depends:
 - [technic_armor](https://github.com/stujones11/technic_armor)
 - [xtraarmor](https://forum.minetest.net/viewtopic.php?t=16645)
 - [amber](https://forum.minetest.net/viewtopic.php?t=18186)
+- [rainbow_ore](https://forum.minetest.net/viewtopic.php?id=13519)
 
 ### Links:
 
