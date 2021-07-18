@@ -1,5 +1,4 @@
 
 TODO:
 - add helmets from mods:
-	- amber
 	- rainbow_ore

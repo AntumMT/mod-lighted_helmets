@@ -42,6 +42,10 @@ if core.global_exists("armor") then
 			"mese",
 			"studded",
 		},
+		["amber"] = {
+			"amber",
+			{"ancient", 14},
+		},
 	}
 
 	for modname, materials in pairs(helmets) do
@@ -52,7 +56,13 @@ if core.global_exists("armor") then
 				material = material[1]
 			end
 
-			local orig_name = modname .. ":helmet_" .. material
+			local orig_name
+			if modname == "amber" and material == "amber" then
+				orig_name = modname .. ":helmet"
+			else
+				orig_name = modname .. ":helmet_" .. material
+			end
+
 			local orig_def = core.registered_items[orig_name]
 			if orig_def then
 				local def = table.copy(orig_def)
@@ -67,7 +77,13 @@ if core.global_exists("armor") then
 				end
 				def.preview = modname .. "_helmet_" .. material .. "_preview.png"
 
-				local helmet_name = "lighted_helmets:" .. material
+				local helmet_name = "lighted_helmets:"
+				if modname == "amber" and material == "ancient" then
+					helmet_name = helmet_name .. "amber_ancient"
+				else
+					helmet_name = helmet_name .. material
+				end
+
 				armor:register_armor(":" .. helmet_name, def)
 				armor_light.register(helmet_name, lvalue)
 
