@@ -1,7 +1,6 @@
 
 TODO:
 - add helmets from mods:
-	- technic_armor
 	- xtraarmor
 	- amber
 	- rainbow_ore

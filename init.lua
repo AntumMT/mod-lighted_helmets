@@ -11,6 +11,15 @@ if core.global_exists("armor") then
 			"steel",
 			"wood",
 		},
+		["technic_armor"] = {
+			"brass",
+			"carbon",
+			"cast",
+			"lead",
+			"silver",
+			"stainless",
+			"tin",
+		},
 	}
 
 	for modname, materials in pairs(helmets) do
@@ -29,7 +38,7 @@ if core.global_exists("armor") then
 				def.description = def.description .. " with light"
 				def.inventory_image = "lighted_helmets_inv_underlay.png^" .. orig_def.inventory_image
 				if not def.texture then
-					def.texture = "3d_armor_helmet_" .. material .. ".png"
+					def.texture = modname .. "_helmet_" .. material .. ".png"
 				end
 				if not def.wield_image then
 					def.wield_image = orig_def.inventory_image

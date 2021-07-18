@@ -5,7 +5,8 @@
 Light-emitting helmets.
 
 Supports helmets from the following mods:
-- [3d_armor][]
+- 3d_armor
+- technic_armor
 
 ### Licensing:
 
@@ -40,6 +41,7 @@ Depends:
 
 Optional depends:
 - [default](https://github.com/minetest/minetest_game/blob/master/mods/default)
+- [technic_armor](https://github.com/stujones11/technic_armor)
 
 ### Links:
 
