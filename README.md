@@ -53,7 +53,7 @@ Optional depends:
 Settings:
 - lighted_helmets.exclude
   - List of mods or helmets to exclude.
-	- Example: lighted_helmets.exclude = xtraarmor,amber:helmet
+  - Example: lighted_helmets.exclude = xtraarmor,amber:helmet
 ```
 
 ### Links:
