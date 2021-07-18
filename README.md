@@ -64,6 +64,7 @@ Optional depends:
 
 ### Links:
 
+- [![ContentDB](https://img/shields.io/static/v1?label=ContentDB&message=lighted_helmets&color=%23375a7f&logo=minetest)](https://content.minetest.net/packages/AntumDeluge/lighted_helmets/)
 - [Forum](https://forum.minetest.net/viewtopic.php?t=27035)
 - [Git repo](https://github.com/AntumMT/mod-lighted_helmets)
 - [Changelog](changelog.txt)
