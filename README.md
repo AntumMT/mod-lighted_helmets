@@ -37,6 +37,14 @@ Supports helmets from the following mods:
 
 </details>
 
+#### Settings:
+
+```
+lighted_helmets.exclude
+- List of mods or helmets to exclude.
+- Example: lighted_helmets.exclude = xtraarmor,amber:helmet
+```
+
 ### Requirements:
 
 ```
@@ -52,11 +60,6 @@ Optional depends:
 - xtraarmor
 - amber
 - rainbow_ore
-
-Settings:
-- lighted_helmets.exclude
-  - List of mods or helmets to exclude.
-  - Example: lighted_helmets.exclude = xtraarmor,amber:helmet
 ```
 
 ### Links:
