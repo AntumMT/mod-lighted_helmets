@@ -1,6 +1,5 @@
 
 TODO:
 - add helmets from mods:
-	- xtraarmor
 	- amber
 	- rainbow_ore

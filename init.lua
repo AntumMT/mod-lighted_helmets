@@ -20,6 +20,28 @@ if core.global_exists("armor") then
 			"stainless",
 			"tin",
 		},
+		["xtraarmor"] = {
+			"chainmail",
+			"copper",
+			"leather",
+			"leather_black",
+			"leather_blue",
+			"leather_brown",
+			"leather_cyan",
+			"leather_dark_green",
+			"leather_dark_grey",
+			"leather_green",
+			"leather_grey",
+			"leather_magenta",
+			"leather_orange",
+			"leather_pink",
+			"leather_red",
+			"leather_violet",
+			"leather_white",
+			"leather_yellow",
+			"mese",
+			"studded",
+		},
 	}
 
 	for modname, materials in pairs(helmets) do
