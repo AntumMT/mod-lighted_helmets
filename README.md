@@ -5,7 +5,7 @@
 Light-emitting helmets.
 
 Supports helmets from the following mods:
-- [3d_armor](https://content.minetest.net/packages/stu/3d_armor/)
+- [3d_armor][]
 
 ### Licensing:
 
@@ -32,12 +32,14 @@ Supports helmets from the following mods:
 
 ### Requirements:
 
-Depends:
-- 3d_armor
-- 3d_armor_light
+Minimum Minetest verserion: 0.4
 
-Optonal depends:
-- default
+Depends:
+- [3d_armor][]
+- [3d_armor_light](https://content.minetest.net/packages/AntumDeluge/3d_armor_light/)
+
+Optional depends:
+- [default](https://github.com/minetest/minetest_game/blob/master/mods/default)
 
 ### Links:
 
@@ -45,3 +47,6 @@ Optonal depends:
 - [Git repo](https://github.com/AntumMT/mod-lighted_helmets)
 - [Changelog](changelog.txt)
 - [TODO](TODO.txt)
+
+
+[3d_armor]: https://content.minetest.net/packages/stu/3d_armor/
