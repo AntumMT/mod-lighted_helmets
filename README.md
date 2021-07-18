@@ -14,7 +14,7 @@ Supports helmets from the following mods:
 
 ### Usage:
 
-Crafting:
+#### Crafting:
 
 <details><summary>Spoiler</summary>
 
