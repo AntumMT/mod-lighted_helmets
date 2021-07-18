@@ -1,0 +1,6 @@
+
+v1.0
+----
+- initial release
+- helmets equipped to armor inventory will emit light
+- added light to helmets crafted from 3d_armor helmets
