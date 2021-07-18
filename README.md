@@ -41,6 +41,7 @@ Optonal depends:
 
 ### Links:
 
+- [Forum](https://forum.minetest.net/viewtopic.php?t=27035)
 - [Git repo](https://github.com/AntumMT/mod-lighted_helmets)
 - [Changelog](changelog.txt)
 - [TODO](TODO.txt)
