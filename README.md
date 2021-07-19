@@ -11,13 +11,13 @@ Supports helmets from the following mods:
 - [amber](https://forum.minetest.net/viewtopic.php?t=18186)
 - [rainbow_ore](https://forum.minetest.net/viewtopic.php?id=13519)
 
-![icon](screenshot.png)
+![screenshot](screenshot.png)
 
 ### Licensing:
 
 - Code: [MIT](LICENSE.txt)
 - Textures: CC0
-- Screenshot/Icon: [CC0](https://openclipart.org/detail/201890)
+- Icon: [CC0](https://openclipart.org/detail/201890)
 
 ### Usage:
 
