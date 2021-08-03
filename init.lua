@@ -121,7 +121,7 @@ if core.global_exists("armor") then
 							helmet_name = helmet_name .. "_from_" .. modname
 						end
 
-						armor:register_armor(":" .. helmet_name, def)
+						armor:register_armor(helmet_name, def)
 						armor_light.register(helmet_name, lvalue)
 
 						if core.registered_items["default:mese_crystal"] and core.registered_items["default:torch"] then
