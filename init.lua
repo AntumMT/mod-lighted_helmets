@@ -116,6 +116,11 @@ if core.global_exists("armor") then
 							helmet_name = helmet_name .. material
 						end
 
+						if core.registered_tools[helmet_name] then
+							-- in the event two mods use the same material
+							helmet_name = helmet_name .. "_from_" .. modname
+						end
+
 						armor:register_armor(":" .. helmet_name, def)
 						armor_light.register(helmet_name, lvalue)
 
