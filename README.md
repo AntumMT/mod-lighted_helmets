@@ -48,7 +48,7 @@ lighted_helmets.exclude
 ### Requirements:
 
 ```
-Minimum Minetest verserion: 0.4
+Minimum Minetest version: 5.0
 
 Depends:
 - 3d_armor
