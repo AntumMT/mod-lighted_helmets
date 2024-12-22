@@ -1,4 +1,9 @@
 
+v1.2
+----
+- updated dependencies for current 3d_armor releases
+
+
 v1.1
 ----
 - added localization support
