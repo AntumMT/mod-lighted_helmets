@@ -1,2 +1,3 @@
 
 TODO:
+- postpone registration instead of adding all 3d_armor submodules as optional dependencies
