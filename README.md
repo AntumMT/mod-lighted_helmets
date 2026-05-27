@@ -66,6 +66,9 @@ Optional depends:
 
 - [![ContentDB](https://img.shields.io/static/v1?label=ContentDB&message=lighted_helmets&color=%23375a7f&logo=luanti)](https://content.luanti.org/packages/AntumDeluge/lighted_helmets/)
 - [Forum](https://forum.luanti.org/viewtopic.php?t=27035)
-- [Git repo](https://github.com/AntumMT/mod-lighted_helmets)
+- Git repos:
+    - [Codeberg](https://codeberg.org/AntumLuanti/mod-lighted_helmets)
+    - [GitHub](https://github.com/AntumMT/mod-lighted_helmets)
+    - [GitLab](https://gitlab.com/AntumMT/mod-lighted_helmets)
 - [Changelog](changelog.txt)
 - [TODO](TODO.txt)
