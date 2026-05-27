@@ -1,0 +1,19 @@
+{
+	"type": "MOD",
+	"title": "Lighted Helmets",
+	"name": "lighted_helmets",
+	"short_description": "Light-emitting helmets.",
+	"dev_state": "MAINTENANCE_ONLY",
+	"ai_disclosure": "NONE",
+	"tags": ["tools"],
+	"content_warnings": null,
+	"license": "MIT",
+	"media_license": "CC0-1.0",
+	"repo": "https://codeberg.org/AntumLuanti/mod-lighted_helmets",
+	"website": null,
+	"issue_tracker": "https://codeberg.org/AntumLuanti/mod-lighted_helmets/issues",
+	"forums": "27035",
+	"video_url": null,
+	"donate_url": null,
+	"translation_url": null
+}
