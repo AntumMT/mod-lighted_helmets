@@ -6,10 +6,10 @@ Light-emitting helmets.
 
 Supports helmets from the following mods:
 - [3d_armor](https://content.luanti.org/packages/stu/3d_armor/)
-- [technic_armor](https://github.com/stujones11/technic_armor)
+- [technic_armor](https://content.luanti.org/packages/mt-mods/technic_armor/)
 - [xtraarmor](https://forum.luanti.org/viewtopic.php?t=16645)
 - [amber](https://forum.luanti.org/viewtopic.php?t=18186)
-- [rainbow_ore](https://forum.luanti.org/viewtopic.php?id=13519)
+- [rainbow_ore](https://content.luanti.org/packages/KingSmarty/rainbow_ore/)
 
 ![screenshot](screenshot.png)
 
